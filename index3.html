@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Campus Connect</title>
+<link rel ="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.0.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+</head>
+<body class="theme-font">
+<div class="base">
+	<h1 class="title"><ab class="initial">C</ab>ampus <ab class="initial">C</ab>onnec</h1>
+</div>
+<div class="register">
+    <h1 class="headregister">Join now to stay connected forever!!!</h1>
+	
+		<form class="form-inline"action="index.php" method="post">
+  		<div class="form-group">
+    		<label class="sr-only" for="exampleInputEmail2">Name : </label>
+    		<input type="text" class="form-control width2 " id="name"  name="name" placeholder="Enter your name">
+  		</div>
+  		<br>
+  		<select class="form-control  width3 " name="gender" placeholder="Gender" id="gender">
+  			 <option>Gender</option>
+  			 <option>Male</option>
+  			 <option>Female</option>
+  			 <option>Others</option>
+  		</select>
+  		<br>
+  		<select class="form-control  width4 " name="date" id="date">
+  			 <option>Date</option>
+  			 <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+  			 <option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option>
+  			 <option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option>
+  			 <option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option>
+  			 <option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+  			 <option>31</option>
+  		</select>
+  		<select class="form-control  width4 " name="month" id="month">
+  			 <option>Month</option>
+  			 <option>Jan</option>
+  			 <option>Feb</option>
+  			 <option>Mar</option>
+  			 <option>Apr</option>
+  			 <option>May</option>
+  			 <option>Jun</option>
+  			 <option>July</option>
+  			 <option>Aug</option>
+  			 <option>Sep</option>
+  			 <option>Oct</option>
+  			 <option>Nov</option>
+  			 <option>Dec</option>
+  		</select>
+  		<select class="form-control  width4 " name="year" id="year">
+  			 <option>Year</option>
+  			 <option>1989</option>
+  			 <option>1990</option>
+  			 <option>1991</option>
+  			 <option>1992</option>
+  			 <option>1993</option>
+  			 <option>1994</option>
+  			 <option>1995</option>
+  			 <option>1996</option>
+  			 <option>1997</option>
+  			 <option>1998</option>
+  			 <option>1999</option>
+  			 <option>2000</option>
+  		</select>
+  		<br>
+  		<div class="form-group">
+    		<label class="sr-only" for="exampleInputEmail2">Email address</label>
+    		<input type="email" class="form-control  width2" id="email"  name="email" placeholder="Enter email">
+  		</div>
+  		<br>
+  		<div class="form-group">
+    	   <label class="sr-only" for="exampleInputPassword2">Phone Number</label>
+    	   <input type="tel" class="form-control width2 " id="phone" name="phone" placeholder="Phone Number">
+ 		 </div>
+ 		 <br>
+ 		 <div class="form-group">
+    	   <label class="sr-only" for="exampleInputPassword2">Password</label>
+    	   <input type="password" class="form-control width2 " id="password1" name="password" placeholder="Password">
+ 		 </div>
+ 		 <br>
+ 		 <div class="form-group">
+    		<label class="sr-only" for="exampleInputPassword2">Confirm Password</label>
+    		<input type="password" class="form-control width2 " id="password2"  placeholder="Confirm Password">
+ 		 </div>
+ 		 <br>
+  		  <div class="hr"></div>
+  		
+  			<button type="submit"  name="request" value="register" id="registerbtn"class="btn btn-warning right width3 ">Sign up</button>
+  		
+  			 <div class="policy">By clicking the 'sign up' up button you agree to our terms and conditions and trust our data sharing and storing policy.
+  			 </div>
+
+
+		</form>
+</div>
+<div class="login">
+
+	
+      <h1 class="headlogin">Login</h1>
+			<div class="hr"></div>
+		<form class="form-inline" action="index.php" method="post">
+  		<div class="form-group">
+    		<label class="sr-only" for="exampleInputEmail2">Email address</label>
+    		<input type="email" class="form-control width " id="loginid"  name="email" placeholder="Enter email">
+  		</div>
+ 		 <div class="form-group">
+    		<label class="sr-only" for="exampleInputPassword2">Password</label>
+    		<input type="password" class="form-control width " id="loginpassword" name="password" placeholder="Password">
+ 		 </div>
+ 		 <!--
+  		<div class="checkbox">
+    		 <label>
+     		 <input type="checkbox"> Remember me
+    		 </label>
+  		</div>
+  		<!-->
+  		<br>
+  			<button type="submit" class="btn btn-success width5" name="request" value="login">Sign in</button>
+		</form>
+    <div class="notify">
+      <div class="load">
+      
+        
+      
+     </div>        
+      
+    </div>
+
+	
+</div>
+
+
+
+</body>
+</html>

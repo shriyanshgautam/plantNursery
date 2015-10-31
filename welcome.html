@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Campus Connect</title>
+	<link rel ="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/jquery-1.11.0.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+	
+</head>
+<body class="theme-font">
+	<div class="base">
+		<h1 class="title"><ab class="initial">C</ab>ampus <ab class="initial">C</ab>onnect</h1>
+
+	</div>
+
+
+	<div class="body">
+		<div class="leftbar">
+		
+		<div class="newsitem" id="20">
+				<div class="content">
+					
+					<?php $name= $resp[20]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<b><img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+						<?php echo $resp[20]["username"].' '; ?>
+						<span>
+							
+							<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+							<?php echo $resp[20]["username"].' '; ?>
+						</span>
+					</b>
+					<?php echo $resp[20]["content"]; ?>
+					
+				</div>
+				<div class="time"><?php echo $resp[20]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+		<div class="newsitem" id="19">
+				<div class="content">
+					<?php $name= $resp[19]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[19]["username"].' '; ?>
+						<span>
+							<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+							<?php echo$name= $resp[19]["username"]; ?>
+						</span>
+					</b>
+					<?php echo $resp[19]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[19]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+		<div class="newsitem" id="18">
+				<div class="content">
+					<?php $name= $resp[18]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[18]["username"].' '; ?>
+						<span>
+							<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+							<?php echo$name= $resp[18]["username"]; ?>
+						</span>
+					</b>
+					<?php echo $resp[18]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[18]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+		<div class="newsitem" id="17">
+				<div class="content">
+					<?php $name= $resp[17]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[17]["username"].' '; ?><span><?php echo $resp[17]["content"]; ?></span></b>
+					<?php echo $resp[17]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[17]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[16]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[16]["username"].' '; ?><span><?php echo $resp[16]["content"]; ?></span></b>
+					<?php echo $resp[16]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[16]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[15]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[15]["username"].' '; ?><span><?php echo $resp[15]["content"]; ?></span></b>
+					<?php echo $resp[15]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[15]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[14]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[14]["username"].' '; ?><span><?php echo $resp[14]["content"]; ?></span></b>
+					<?php echo $resp[14]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[4]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[13]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[13]["username"].' '; ?><span><?php echo $resp[20]["content"]; ?></span></b>
+					<?php echo $resp[13]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[13]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[12]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[12]["username"].' '; ?><span><?php echo $resp[12]["content"]; ?></span></b>
+					<?php echo $resp[12]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[12]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[11]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[11]["username"].' '; ?><span><?php echo $resp[11]["content"]; ?></span></b>
+					<?php echo $resp[11]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[11]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[10]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[10]["username"].' '; ?><span><?php echo $resp[10]["content"]; ?></span></b>
+					<?php echo $resp[10]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[10]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[9]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[9]["username"].' '; ?><span><?php echo $resp[9]["content"]; ?></span></b>
+					<?php echo $resp[9]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[9]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[8]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[8]["username"].' '; ?><span><?php echo $resp[8]["content"]; ?></span></b>
+					<?php echo $resp[8]["content"]; ?>
+					
+				</div>
+				<div class="time"><?php echo $resp[8]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[7]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[7]["username"].' '; ?><span><?php echo $resp[7]["content"]; ?></span></b>
+					<?php echo $resp[7]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[7]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[6]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[6]["username"].' '; ?><span><?php echo $resp[6]["content"]; ?></span></b>
+					<?php echo $resp[6]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[6]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[5]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[5]["username"].' '; ?><span><?php echo $resp[5]["content"]; ?></span></b>
+					<?php echo $resp[5]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[5]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[4]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[4]["username"].' '; ?><span><?php echo $resp[4]["content"]; ?></span></b>
+					<?php echo $resp[4]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[4]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[3]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[3]["username"].' '; ?><span><?php echo $resp[3]["content"]; ?></span></b>
+					<?php echo $resp[3]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[3]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[2]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[2]["username"].' '; ?><span><?php echo $resp[2]["content"]; ?></span></b>
+					<?php echo $resp[2]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[2]["time"]; ?></div>
+			</div>
+			<div class="hr2"></div>
+			<div class="newsitem">
+				<div class="content">
+					<?php $name= $resp[1]["username"]; ?>
+					<?php $url='images/'.$name.'.jpg'?>
+					<img src="<?php echo $url; ?>" title="<?php echo $name; ?>" class="img-circle img">
+					<b><?php echo $resp[1]["username"].' '; ?><span><?php echo $resp[1]["content"]; ?></span></b>
+					<?php echo $resp[1]["content"]; ?>
+				</div>
+				<div class="time"><?php echo $resp[1]["time"]; ?></div>
+			</div>
+  			
+			
+
+		</div>
+		<div class="rightbar">
+			<div class="hbar">
+				<div class="profileleft">
+					<?php $url='images/'.$username.'.jpg';?>
+					<div class="showhim">
+						<img src="<?php echo $url; ?>" title="<?php echo $username; ?>" class="img-thumbnail profileimg">
+  					<div class="showme">
+  					
+					<form action="index.php" method="post"enctype="multipart/form-data">
+						<input type="file" name="file" class="uploadbtn btn btn-primary">
+						<input type="submit" name="request" value="uploadpic" class="uploadbtn btn btn-primary">
+					</form>
+					</div>
+					</div>
+				</div>
+				<div class="profilemid">
+					
+					<form class="form-inline" role="form" action="index.php" method="post">
+					<textarea rows="3" class="form-control" name="content" placeholder="Post to Campus Connect..."></textarea>
+					<button type="submit"  name="request" value="postbyuser" class="btn btn-primary right width3 ">Post it</button>
+				</form>
+				</div>
+				<div class="profileright">
+					<form class="form-inline" role="form" action="index.php" method="post">
+						<button type="submit"  name="request" value="logout" class="btn btn-danger right">Logout</button>
+					</form>
+				</div>
+			</div>
+			
+			
+					
+
+			
+  				
+
+				
+		</div>
+		
+	</div>
+	
+	
+
+
+</body>
+
+</html>

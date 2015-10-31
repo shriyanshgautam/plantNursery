@@ -1,0 +1,120 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<title>Campus Connect</title>
+		<link rel ="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/update.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>setInterval(function() {$('#refreshdiv').load('divcontainer.html')}, 1000);</script>
+	</head>
+	<body class="theme-font">
+		<div class="base">
+			<h1 class="title"><ab class="initial">C</ab>ampus <ab class="initial">C</ab>onnect</h1>
+
+		</div>
+		<div class="body">
+
+			<div class="box">
+				<div class="profilepic">
+					<?php $url="images/".$username.".jpg";?>
+					<div class="showhim">
+					<img src="<?php echo $url; ?>" title="<?php echo $username; ?>" class="img-thumbnail profileimg">
+					<div class="showme">
+					<form action="index.php" method="post"enctype="multipart/form-data" class="form-inline">
+						<input type="file" name="file" class="uploadbtn btn btn-primary">
+						<input type="hidden" name="request" value="uploadpic" >
+						<input type="submit" value="" class="uploadbtn btn btn-primary">
+					</form>
+					</div>
+					</div>
+				</div>
+				<div class="profileinfo">
+				<form class="form-inline"action="index.php" method="post">
+
+					<select class="form-control inputh inputw" name="department" placeholder="Department">
+						<option>Department</option>
+						<option>Computer Science and Engineering</option>
+						<option>Electrical Engineering</option>
+						<option>Electronics Engineering</option>
+						<option>Mechanical Engineering</option>
+						<option>Civil Engineering</option>
+						<option>Chemical Engineering</option>
+						<option>Metallurgical Engineering</option>
+						<option>Mining Engineering</option>
+						<option>Ceramic Engineering</option>
+						<option>Mathematics and Computing</option>
+						<option>Pharmaceutics</option>
+					</select>
+					<br>
+					<select class="form-control inputh" name="year">
+						<option>Year</option>
+						<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+					</select>
+					<br>
+					<select class="form-control  inputh" name="section">
+						<option>Section</option>
+						<option>None</option>
+						<option>A</option>
+						<option>B</option>
+						<option>C</option>
+						<option>D</option>
+						<option>E</option>
+						<option>F</option>
+						<option>G</option>
+						<option>H</option>
+					</select>
+					<br>
+					<select class="form-control inputh" name="hostel">
+						<option>Hostel</option>
+						<option>Morvi Hostel</option>
+						<option>C V Raman Hostel</option>
+						<option>Dhanrajgiri Hostel</option>
+						<option>S Ramanujam Hostel</option>
+						<option>A S N Bose Hostel</option>
+						<option>Vishvwsaraiya Hostel</option>
+						<option>Rajputana Hostel</option>
+						<option>Limbdi Hostel</option>
+						<option>Gandhi Smriti Girls Hostel</option>
+						<option>S C Dey Hostel</option>
+						<option>Vivekananda Hostel</option>
+						<option>Vishwakarma Hostel</option>
+					</select>
+					<br>
+					<select class="form-control inputh" name="relationship">
+						<option>Relationship</option>
+						<option>Single</option>
+						<option>One and Half</option>
+						<option>Double</option>
+						<option>Two and Half</option>
+						<option>Tripple</option>
+					</select>
+					<br>
+					<div class="form-group">
+						<label class="sr-only" for="exampleInputEmail2">HomeTown</label>
+						<input type="text" class="form-control  inputh" id="exampleInputEmail2"  name="hometown" placeholder="Hometown">
+					</div>
+					<br>
+					<div class="hr"></div>
+
+					<button type="submit"  name="request" value="profileupdate" class="btn btn-warning inputh">Next</button>
+
+					<div class="policy">This information will be used to provid you cusomized news and updates.
+					</div>
+
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+
+</html>
